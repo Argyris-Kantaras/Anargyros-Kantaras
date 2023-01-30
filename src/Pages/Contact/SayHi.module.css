@@ -1,0 +1,73 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("D:\Projects\My testing web\portfolio\src\icons\person.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact h1 {
+  color: red;
+}
+
+.logo {
+  width: 5em;
+  position: relative;
+}
+.inputFields {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin-top: 8%;
+}
+
+.input {
+  text-align: left;
+  display: flex;
+  margin: 4%;
+  flex-direction: column;
+}
+
+.input input {
+  width: 15em;
+  height: 3em;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.inputFields textarea {
+  width: 35em;
+  height: 10em;
+  resize: vertical;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.inputFields label {
+  color: rgba(251, 0, 0);
+}
+
+.sendBtn {
+  text-align: center;
+  width: 5em;
+  padding: 1em;
+  border-radius: 2em;
+  border: solid red 1px;
+  color: red;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sendBtn:hover {
+  background-color: red;
+  color: white;
+}
+
+.successMsg {
+  display: none;
+  color: red;
+  font-size: 1.5em;
+}

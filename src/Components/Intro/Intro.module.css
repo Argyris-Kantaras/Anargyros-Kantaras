@@ -1,0 +1,69 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.personIcon {
+  width: 30em;
+  margin-bottom: 5em;
+}
+
+.profession {
+  font-size: 3em;
+}
+
+.bannerMessage {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.programmingIcon {
+  width: 60em;
+  margin-bottom: -4.8em;
+}
+
+.introduction {
+  background-color: red;
+  padding: 15em;
+  color: white;
+  z-index: 1;
+}
+
+.introduction h2 {
+  font-size: 2.2em;
+}
+
+.aboutMe {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  font-size: 1.2em;
+}
+@media only screen and (max-width: 800px) {
+  .personIcon {
+    width: 20em;
+    margin-bottom: 5em;
+  }
+  .programmingIcon {
+    width: 25em;
+    margin-bottom: -2.5em;
+  }
+  .introduction {
+    padding: 0em;
+    padding-bottom: 5em;
+    width: 100%;
+  }
+
+  .introduction h2 {
+    font-size: 1.5em;
+  }
+
+  .aboutMe {
+    width: 100%;
+    position: relative;
+    left: 0%;
+    font-size: 1em;
+  }
+}

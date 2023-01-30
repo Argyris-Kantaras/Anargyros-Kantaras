@@ -1,0 +1,46 @@
+.homepage {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  width: 5em;
+  height: 4em;
+  position: relative;
+  left: 20%;
+  cursor: pointer;
+}
+.wavingHand {
+  position: relative;
+  left: 80%;
+  font-size: 1.5em;
+  border-radius: 1em;
+  border: solid 1px red;
+  padding: 0.5em;
+  margin-bottom: 1.2em;
+  color: red;
+  transition: 0.3s;
+}
+
+.wavingHand:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  .wavingHand {
+    position: relative;
+    left: 40%;
+    font-size: 1.5em;
+    border-radius: 1em;
+    border: solid 1px red;
+    padding: 0.5em;
+    margin-bottom: 1.2em;
+    color: red;
+    transition: 0.3s;
+  }
+}

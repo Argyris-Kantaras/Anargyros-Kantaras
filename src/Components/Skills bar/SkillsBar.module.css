@@ -1,0 +1,28 @@
+.frontSkills {
+  width: 50%;
+  position: relative;
+  border-right: ridge 1px grey;
+}
+
+.smallText {
+  width: 0%;
+}
+
+.smallLogo {
+  width: 15em;
+}
+
+.languages span {
+  color: red;
+}
+
+.languages ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .smallLogo {
+    width: 8em;
+  }
+}

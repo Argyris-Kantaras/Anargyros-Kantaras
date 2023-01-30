@@ -1,0 +1,24 @@
+.designSkills {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.smallLogo {
+  width: 15em;
+}
+
+.languages span {
+  color: red;
+}
+
+.languages ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .smallLogo {
+    width: 8em;
+  }
+}
