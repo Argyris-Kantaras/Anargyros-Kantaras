@@ -11,24 +11,20 @@ function MyWork() {
       <h3>Recent Work</h3>
       <div className={styles.myWork}>
         <WorkFrame
+          link="https://worldwide-weather-forecasts.netlify.app/"
+          imgSrc={weatherAppImg}
+          title="Worldwide weather"
+        />
+        <WorkFrame
           link="https://rec-ipes.netlify.app/"
           imgSrc={recipesAppImg}
           title="Recipes App"
         />
-        <WorkFrame
-          link="https://map-shot.netlify.app/"
-          imgSrc={maphotAppImg}
-          title="Map App"
-        />
+
         <WorkFrame
           link="https://currency-app-convert.netlify.app/"
           imgSrc={currencyAppImg}
           title="Currency App"
-        />
-        <WorkFrame
-          link="https://the-forecasts-app.netlify.app/"
-          imgSrc={weatherAppImg}
-          title="Forecasts App"
         />
       </div>
     </div>
