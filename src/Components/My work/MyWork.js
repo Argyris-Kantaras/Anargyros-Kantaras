@@ -18,13 +18,13 @@ function MyWork() {
         <WorkFrame
           link="https://rec-ipes.netlify.app/"
           imgSrc={recipesAppImg}
-          title="Recipes App"
+          title="Rec...ipes"
         />
 
         <WorkFrame
           link="https://currency-app-convert.netlify.app/"
           imgSrc={currencyAppImg}
-          title="Currency App"
+          title="Currency converter"
         />
       </div>
     </div>

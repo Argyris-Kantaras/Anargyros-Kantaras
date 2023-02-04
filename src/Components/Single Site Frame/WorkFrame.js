@@ -11,7 +11,7 @@ function WorkFrame(props) {
       onMouseLeave={() => (overlayRef.current.style.opacity = "0")}
       className={styles.workFrame}
     >
-      <label>{props.title}</label>
+      <label className={styles.title}>{props.title}</label>
       <img src={props.imgSrc} title={props.title} />
       <div ref={overlayRef} className={styles.siteOverlay}>
         <div onClick={() => window.open(props.link)}>Visit site</div>
