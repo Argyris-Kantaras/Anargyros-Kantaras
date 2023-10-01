@@ -4,12 +4,18 @@ import maphotAppImg from "../../icons/mapshot.png";
 import weatherAppImg from "../../icons/weather-app.png";
 import currencyAppImg from "../../icons/currency-convert.png";
 import recipesAppImg from "../../icons/recipes-app.png";
+import eCommerce from "../../icons/e-commerce.png";
 
 function MyWork() {
   return (
     <div>
       <h3>Recent Work</h3>
       <div className={styles.myWork}>
+        <WorkFrame
+          link="https://power-of-sun.netlify.app/"
+          imgSrc={eCommerce}
+          title="E-commerce"
+        />
         <WorkFrame
           link="https://worldwide-weather-forecasts.netlify.app/"
           imgSrc={weatherAppImg}
