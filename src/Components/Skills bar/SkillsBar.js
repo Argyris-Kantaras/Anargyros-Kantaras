@@ -13,11 +13,14 @@ function SkillsBar() {
         <span>Languages I "speak":</span>
         <ul>
           <li>React.js</li>
-          <li>JavaScript</li>
+          <li>Node.js</li>
           <li>Redux</li>
+          <li>JavaScript</li>
           <li>CSS</li>
           <li>HTML</li>
           <li>Git</li>
+          <li>Python(basics)</li>
+          <li>PHP(basics)</li>
         </ul>
       </div>
     </div>
